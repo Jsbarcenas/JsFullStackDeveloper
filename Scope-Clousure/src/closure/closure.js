@@ -8,7 +8,7 @@ moneyBox(10);
 
 //Closure bien hecho.
 
-const moneyBox = (coins) => {
+const moneyBox = () => {
     var savedCoins = 0;
     const countCoins = (coins) => {
         savedCoins += coins;
@@ -16,7 +16,8 @@ const moneyBox = (coins) => {
     }
     return countCoins;
 }
-let myMoneyBox = moneyBox (4);
-myMoneyBox(5);
-myMoneyBox(5);
-myMoneyBox(5);
+debugger;
+let myMoneyBox = moneyBox (5);
+myMoneyBox(0);
+myMoneyBox(0);
+myMoneyBox(0);
