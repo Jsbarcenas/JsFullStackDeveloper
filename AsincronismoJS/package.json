@@ -1,0 +1,19 @@
+{
+  "name": "asincronismojs",
+  "version": "1.0.0",
+  "description": "Curso de asincronismo en Js",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promesas",
+    "async"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
