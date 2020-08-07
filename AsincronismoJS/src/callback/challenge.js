@@ -12,6 +12,7 @@ function fetchData (url_api,callback) {
                 return callback (error,null);
             }
         }
+        
     }
     xhttp.send();
 }
